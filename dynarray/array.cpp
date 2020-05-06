@@ -12,7 +12,7 @@ class DynArray {
             for(int i = 0; i < capacity; i++) {
                 arr[i] = pl_arr[i];
             }
-            
+
 
         }
 
@@ -41,7 +41,7 @@ class DynArray {
         void set(int index, int value) {
             if (index > capacity || index < 0) {
                 // learn to use exceptions
-                std::cout << "Fuck you" << std::endl;
+                std::cout << "This won't work" << std::endl;
                 return;
             }
             if (sz == capacity) {
