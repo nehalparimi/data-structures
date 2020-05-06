@@ -1,0 +1,6 @@
+1. string.substr(int) -> having just one value here implies that we cut off int number of letters
+    1.a) subtr(x, y) is x-inclusive and y-exclusive
+
+2. str.find(str/char) returns an integer. If not found returns -1. This is the same as std::string::npos
+
+
