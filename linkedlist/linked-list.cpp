@@ -57,7 +57,6 @@ public:
     int search_list(T val){
         if (iter != _root) iter = _root;
         int index = 0;
-
         while (iter->next && iter->value != val) {
             iter = iter->next;
             ++index;
