@@ -13,13 +13,13 @@ std::vector<std::string> parser(std::string str, char delim) {
     placeholder.clear();
 
     while(*(nxt++)) {
-        
-    
-        
-        
+
+
+
+
     }
     return parsed_container;
-    
+
 }
 
 int main() {
