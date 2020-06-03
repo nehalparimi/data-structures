@@ -3,5 +3,5 @@ CFLAGS = -Wall
 
 CUR = quicksort.cpp
 
-main: $(CUR)
+main: $(CUR) partition.cpp
 	$(CC) $(CUR) -o main -std=c++11 $(CFLAGS)
