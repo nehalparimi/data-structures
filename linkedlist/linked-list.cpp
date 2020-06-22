@@ -9,7 +9,7 @@ class List {
 public:
     List() {
         Node<T> *node = new Node<T>;
-        node->value = "";
+        node->value = 0;
         node->next = nullptr;
 
         _root = node;
